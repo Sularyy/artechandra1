@@ -1,0 +1,22 @@
+header{
+
+  #search_widget{
+  //background-color: #00ff00;
+  //width: 16em;
+  float:right;
+  margin-right: -7.5em;
+  display: block;
+  input{
+    background-color: transparent;
+    background:linear-gradient(90deg, white 3%, #30c8d6 90%);
+    border-radius: 10px;
+    border:0.2px solid ;
+  }
+  }
+}
+
+#search_widget #lupa{
+  position: relative;
+ top:5px;
+  right: 15%;
+}

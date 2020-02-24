@@ -1,0 +1,63 @@
+
+.header-nav{
+  //border:1px solid red;
+  background-color: inherit;
+  margin-left: 45%;
+
+  //margin-top: 2em;
+  //margin-bottom: -3.7rem;
+  h3{
+    display:none;
+    font-size: 1vw;
+
+  //font-family: 'Patrick Hand', cursive;
+  }
+  a{
+    //margin-right: 1em;
+    text-decoration: none;
+    color: inherit;
+    padding:0;
+
+  }
+  li{
+    list-style: none;
+  }
+
+}
+
+.header-nav > *{
+font-size: 0.9rem;
+
+}
+
+
+#blockcart-wrapper{
+    margin-top: auto;
+    //border:1px solid;
+    width: 24%;
+    .cart-preview{
+      //margin-right: 1em;
+    }
+   .cart-preview .header {
+     border:none;
+     padding:0;
+     background-color:transparent;
+   }
+}
+.cart-preview {
+    float: right;
+    position: relative;
+    top:5px;
+  }
+.user-info {
+  //border:1px solid;
+  a{
+  font-size: 0.9rem;
+
+  border:none;
+  //padding-right:-10px;
+  background-color:transparent;
+  font-weight: bold;
+  margin-left: 20px;
+  }
+}
