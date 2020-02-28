@@ -4,6 +4,46 @@
   //border: 1px solid;
 }
 
+
+//-------------productos-----------------//
 .h2{
   font-family: $texto;
+}
+#fondo-sudmit{
+
+  a{
+    background:none;
+    border:none;
+  }
+  img{
+    width: 80%;
+    height: auto;
+
+  }
+}
+.products {
+  #imgFeature{
+    border: 1px solid #cdcdcd;
+    height: 200px;
+  }
+  a {
+  font-size: 1.2vw;
+  }
+}
+.image-product{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  //border: 1px solid #777777;
+}
+
+.product-miniature{
+      max-width: 200px;
+      border:none;
+}
+.product-description-short {
+    display: none;
+  }
+.new{
+  display:none;
 }

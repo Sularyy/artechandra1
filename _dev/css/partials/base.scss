@@ -54,15 +54,27 @@ h1{
   font-weight: normal;
   font-size: 5.5vw;
 //margin-top: -0.5em;
-margin-bottom: 50px;
+  margin-bottom: 50px;
   //border:1px solid red;
 }
 a{
   text-decoration:none;
 }
 
+.page-content{
+  //border:1px solid;
+  margin-top: -10%;
+}
+
+#content{
+  //border:1px solid;
+      width: 110%;
+}
 //------------Css de right-column---------------------------------//
 
 #right-column{
   //margin-left:4%;
+  //border:1px solid red;
+  width: 30%;
+    margin-right: -7%;
 }

@@ -2,13 +2,14 @@
   <article class="product-miniature" data-id-product="{$product.id_product}" data-id-product-attribute="{$product.id_product_attribute}" itemscope itemtype="http://schema.org/Product">
 
     {block name='product_thumbnail'}
-      <a href="{$product.url}" class="thumbnail product-thumbnail">
-        <img
+    <div id="imgFeature">  <a href="{$product.url}" class="thumbnail product-thumbnail">
+        <img class="image-product"
           src = "{$product.cover.medium.url}"
           alt = "{$product.cover.legend}"
           data-full-size-image-url = "{$product.cover.large.url}"
         >
       </a>
+    </div>
     {/block}
 
     {block name='product_name'}
@@ -46,7 +47,7 @@
         {/block}
 
     {block name='product_list_actions'}
-      <div class="product-list-actions">
+      <div id="fondo-sudmit" class="product-list-actions">
         {if $product.add_to_cart_url}
             <a
               class = "add-to-cart"
@@ -55,7 +56,7 @@
               data-id-product="{$product.id_product}"
               data-id-product-attribute="{$product.id_product_attribute}"
               data-link-action="add-to-cart"
-            ><img id="" alt="image" src="themes/artechandra1/img/oval.png" alt="imagen"/></a>
+            ><img id="compra" alt="image" src="themes/artechandra1/img/oval.png" alt="imagen"/></a>
         {/if}
         {hook h='displayProductListFunctionalButtons' product=$product}
       </div>

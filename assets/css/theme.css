@@ -848,7 +848,11 @@ a.add-to-cart,
 a.add-to-cart:hover {
   display: inline-block;
   margin: 5px;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #000;
   padding: 5px;
+  background-color: #90ee90;
   font-weight: bold;
 }
 .category-cover img {
@@ -897,7 +901,7 @@ a.add-to-cart:hover {
   }
 }
 .product-miniature {
-  max-width: 25%;
+  max-width: 420px;
   text-align: center;
   border: 1px solid #808080;
   padding: 15px;
@@ -905,8 +909,7 @@ a.add-to-cart:hover {
   margin-bottom: 25px;
 }
 .product-miniature img {
-  width: 80%;
-  height: auto;
+  max-width: 100%;
 }
 .regular-price {
   text-decoration: line-through;
@@ -1506,8 +1509,55 @@ nav a {
 .h2 {
   font-family: "Patrick Hand"; }
 
-/*a.add-to-cart, a.add-to-cart:hover {
-  background-color: #000000; }*/
+#fondo-sudmit a {
+  background: none;
+  border: none; }
+
+#fondo-sudmit img {
+  width: 80%;
+  height: auto; }
+
+.products #imgFeature {
+  border: 1px solid #cdcdcd;
+  height: 200px; }
+
+.products a {
+  font-size: 1.2vw; }
+
+.image-product {
+  width: 100%;
+  height: auto;
+  margin-top: 20px; }
+
+.product-miniature {
+  max-width: 200px;
+  border: none; }
+
+.product-description-short {
+  display: none; }
+
+.new {
+  display: none; }
+
+#right-column section {
+  padding-left: 40px; }
+
+#Nproduct {
+  flex-direction: column; }
+  #Nproduct #compra {
+    display: none; }
+  #Nproduct .h2 {
+    width: 150px;
+    float: right; }
+  #Nproduct #imgFeature {
+    height: 80px;
+    width: 80px;
+    float: left; }
+  #Nproduct .image-product {
+    width: 70%; }
+  #Nproduct .product-miniature {
+    max-width: 300px;
+    margin-bottom: -15px; }
 
 /*1 html
 2 header
@@ -1551,5 +1601,12 @@ h1 {
 a {
   text-decoration: none; }
 
+.page-content {
+  margin-top: -10%; }
+
+#content {
+  width: 110%; }
+
 #right-column {
-  margin-left: 4%; }
+  width: 30%;
+  margin-right: -7%; }
