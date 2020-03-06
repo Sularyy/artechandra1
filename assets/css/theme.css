@@ -1610,3 +1610,50 @@ a {
 #right-column {
   width: 30%;
   margin-right: -7%; }
+
+#footer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #393d42;
+  height: 20em; }
+  #footer h3, #footer h4 {
+    font-family: "Dancing Script", cursive;
+    font-size: 2.5vw;
+    color: #ffffff; }
+  #footer .elementoFooter ul li a {
+    color: #ffffff; }
+  #footer .elementoFooter ul li {
+    list-style-type: none; }
+  #footer .block-contact {
+    margin-top: -0.5%; }
+  #footer .block-contact h4 {
+    color: #ffffff; }
+  #footer .block-contact p {
+    color: #ffffff;
+    margin-top: -2%; }
+
+#js-product-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between; }
+
+#js-product-list .product-miniature a {
+  font-size: 1.2vw; }
+
+#js-product-list .product-miniature #imgFeature {
+  height: 200px; }
+  #js-product-list .product-miniature #imgFeature a img {
+    border: 1px solid #cdcdcd; }
+
+.products-sort-order span {
+  background-color: red; }
+
+.menuhidden {
+  width: 25%;
+  border: 1px solid #cdcdcd;
+  visibility: hidden; }

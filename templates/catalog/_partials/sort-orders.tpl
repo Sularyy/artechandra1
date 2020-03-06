@@ -22,10 +22,12 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<div class="products-sort-order">
-  <span>{if isset($listing.sort_selected)}{$listing.sort_selected}{else}{l s='Sort by:' d='Shop.Theme.Global'}{/if}</span>
+<div id="prueba" class="products-sort-order">
+  <h3>Filtrar por <img id="menuDesplegable" src="themes/artechandra1/img/menuDesplegable.png" alt="cesta de la compra" height="20" width="20">:
+  <span>{if isset($listing.sort_selected)}{$listing.sort_selected}{else}{l s='Sort by:' d='Shop.Theme.Global'}{/if}</span></h3>
+  <div id="filtros">
   {foreach from=$sort_orders item=sort_order}
-    <a
+    <a class="menuhidden"
       class="{['current' => $sort_order.current, 'js-search-link' => true]|classnames}"
       href="{$sort_order.url}"
       rel="nofollow"
@@ -33,4 +35,5 @@
       {$sort_order.label}
     </a>
   {/foreach}
+  </div>
 </div>
